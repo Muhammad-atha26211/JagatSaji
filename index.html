@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <div lang="en">
     <head>
         <meta charset="UTF-8">
@@ -9,7 +10,7 @@
 </div>
 
 <!--navbar pembuka-->
-
+<body>
 <nav>
     <div class="wrapper"> <!--pembuka wrapper pertama-->
         <div class="logo">
@@ -18,13 +19,13 @@
         <div class="menu">
             <ul>
                 <li><a href="#home">Beranda</a></li>
-                <li><a href="#online">Menu</a></li>
+                <li><a href="#menu">Menu</a></li>
                 <li><a href="#offline">Rekanan</a></li>
-                <li><a href="#partners" style="margin-right: 100px;">Hubungi Kami</a></li>
-                <li><img src="scc.png" style="width: 20px; height: auto; margin-right: 10px;"></li>
-                <li><img src="akun.png" style="width: 20px; height: auto; margin-right: 10px;"></li>
-                <li><img src="buy.png" style="width: 20px; height: auto; margin-right: 30px;"></li>
-                <li><a href="#" class="order">Pesan Disini</a></li>
+                <li><a href="#footer" style="margin-right: 100px;">Hubungi Kami</a></li>
+                <li><a href=""><img src="images/scc.png" style="width: 20px; height: auto; margin-right: 5px;"></a></li>
+                <li><a href=""><img src="images/akun.png" style="width: 20px; height: auto; margin-right: 5px;"></a></li>
+                <li><a href=""><img src="images/buy.png" style="width: 20px; height: auto; margin-right: 5px;"></a></li>
+                <li><a href=""https://wa.me/6285791175583" class="order">Pesan Disini</a></li>
             </ul>
         </div>
     </div>
@@ -32,7 +33,7 @@
 
 <!--section banner-->
 <div class="wrapper">
-    <section id="none">
+    <section id="home">
         <div class="kolom">
             <h2 style="color: rgba(237, 125, 33, 0.8);">Sajian Masakan Indonesia</h2>
             <p class="deskripsi">
@@ -44,8 +45,158 @@
             </p>
             <br>
             <br>
-            <p><a href="#" class="reservasi">Pesan Sekarang</a></p>
+            <p><a href="https://wa.me/6285791175583" class="reservasi">Pesan Sekarang</a></p>
         </div>
-        <img src="nusantara.avif" class="gambar">
+        <img src="images/nusantara.avif" class="gambar">
     </section>
 </div>
+<br>
+<br>
+<br>
+
+<!-- section pilihan menu -->
+    <section class="service" id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2 style="color:rgba(237, 125, 33, 0.8)">Pilihan Menu</h2>
+            </div>
+            <div class="services-grid">
+                <!-- Kartu Menu 1 -->
+                <div class="service-card">
+                    <img class="service-icon" src="images/nasi kuning.jpg" alt="Nasi Kuning" style="width: 300px; height: 200px;">
+                    <h3>Nasi Kuning</h3>
+                    <p>Memiliki cita rasa yang gurih dengan warna kuning cerah, membuat hidangan ini disukai banyak orang</p>
+                </div>
+                <!-- Kartu Menu 2 -->
+                <div class="service-card">
+                    <img class="service-icon" src="images/gado-gado.jpg" alt="Gado-gado" style="width: 300px; height: 200px;">
+                    <h3>Gado-gado</h3>
+                    <p>salah satu makanan khas Indonesia yang terdiri dari aneka sayuran yang disiram dengan saus atau bumbu kacang yang gurih, manis, dan lezat</p>
+                </div>
+                <!-- Kartu Menu 3 -->
+                <div class="service-card">
+                    <img class="service-icon" src="images/nasi uduk.jpg" alt="Nasi Uduk" style="width: 300px; height: 200px;">
+                    <h3>Nasi Uduk</h3>
+                    <p>Nasi Uduk adalah salah satu hidangan khas Betawi (Jakarta) yang terbuat dari beras yang dimasak dengan santan serta berbagai rempah aromatik,
+                       sehingga menghasilkan nasi yang gurih, harum, dan pulen
+                    </p>
+                </div>
+                <!-- Kartu Menu 4 -->
+                <div class="service-card">
+                    <img class="service-icon" src="images/nasi DJ.jpg" alt="Nasi Daun Jeruk" style="width: 300px; height: 200px;">
+                    <h3>Nasi Daun Jeruk</h3>
+                    <p>Nasi Daun Jeruk adalah salah satu kreasi olahan nasi khas Indonesia yang terkenal dengan keharuman aromanya yang segar dan cita rasanya yang gurih lezat</p>
+                </div>
+                <!-- Kartu Menu 5 -->
+                <div class="service-card">
+                    <img class="service-icon" src="images/nasi pecel.jpg" alt="Nasi Pecel" style="width: 300px; height: 200px;">
+                    <h3>Nasi Pecel</h3>
+                    <p>Nasi Pecel berupa nasi putih yang disajikan dengan aneka sayuran rebus lalu disiram bumbu/sambal kacang</p>
+                </div>
+                <!-- Kartu Menu 6 -->
+                <div class="service-card">
+                    <img class="service-icon" src="images/rujak cingur.jpg" alt="Rujak Cingur" style="width: 300px; height: 200px;">
+                    <h3>Rujak Cingur</h3>
+                    <p>Rujak Cingur merupakan salah satu makanan tradisional khas Jawa Timur yang terkenal dengan perpaduan rasa gurih, pedas, manis, dan sedikit asam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- section BOOK A TABLE -->
+<section class="book-table">
+    <div class="book-container">
+        <div class="book-title">
+            <h3 class="book-head">Book A Table</h3>
+        </div>
+        <div>
+            <form class="book-form" target="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="text" placeholder="Phone Number" required>
+                <input type="text" placeholder="Your Email" required>
+                <select required>
+                    <option value="Number of Guests" disabled selected>How many persons?</option>
+                    <option>1 Person</option>
+                    <option>2 People</option>
+                    <option>3 People</option>
+                    <option>4 People</option>
+                    <option>5 People</option>
+                    <option>5+ People</option>
+                </select>
+                <input type="date" required>
+                <button class="submit" type="submit">BOOK NOW</button>
+            </form>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.0059112998797!2d112.42332750000001!3d-7.4645961000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78120b57f1e203%3A0x65ef2d4ecdeb1643!2sSMK%20Negeri%202%20Kota%20Mojokerto!5e0!3m2!1sid!2sid!4v1793617765729!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+    </div>
+</section>
+
+<!-- section komentar rekanan -->
+ <section class="services">
+    <div class="container-komentar">
+        <div class="services-title">
+            <h3>What Says Our Customers</h3>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <p>Masakannya luar biasa lezat dan bumbu rempahnya sangat terasa. Pelayanannya juga ramah dan cepat. Sangat memuaskan!</p>
+                <h3>Cristiano Ronaldo</h3>
+                <span>Pelanggan Setia</span>
+            </div>
+            <div class="service-card">
+                <p>Makanannya sangat enak dan sangat direkomendasikan untuk mencoba seluruh Masakannya. Pelayanannya ramah dan sangat menyenangkan</p>
+                <h3>Erling Haaland</h3>
+                <span>Pelanggan Setia</span>
+            </div>
+        </div>
+    </div>
+ </section>
+
+<!-- section contact -->
+ <section class="footer-bottom" id="footer">
+    <footer>
+        <div class="footer">
+            <div class="footer-container">
+                <!-- Contact Us -->
+                <div class="footer-column contact">
+                    <h2>Contact Us</h2>
+                    <div class="contact-item">
+                        <a href="https://maps.app.goo.gl/Qkcp6tSa3MYEjFYc6" target="_blank"><span>Location in Skaneda</span></a>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://wa.me/6285791175583" target="_blank"><span>WA 085712345678</span></a>
+                    </div>
+                    <div class="contact-item">
+                        <a href="mailto:JagatSaji@gmail.com"><span>JagatSaji@gmail.com</span></a>
+                    </div>
+                </div>
+            <div class="footer-column about">
+                    <h2>JagatSaji</h2>
+                    <div class="deskripsi-footer">
+                        <span>Kuliner SMK Negeri 2 Mojokerto</span>
+                    </div>
+            
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1A6GG8SEKC/" target="_blank"><img src="images/communication.png" style="width: 30px;"</a>
+                    <a href="https://www.instagram.com/muhammad.athaaa?exln=MXFsMjRpaXFkOTVraA==" target="_blank"><img src="images/instagram.png" style="width: 30px;"</a>
+                    <a href="https://x.com/ATHA_2611" target="_blank"><img src="images/twitter.png" style="width: 30px;"</a>
+                </div>
+            </div>
+            <!-- Opening Hours -->
+             <div class="footer-column about">
+                <h2>Opening Hours</h2>
+                <div class="deskripsi-footer">
+                    <span>Everyday</span>
+                    <span>10.00 WIB - 18.00 WIB</span>
+                </div>
+            </div>
+        </div>
+            <div class="reserved">
+                <span>&copy; 2026 All Rights Reserved By rpl_skaneda</span>
+            </div>
+    </footer>
+</section>
+</body>
+</html>
