@@ -191,7 +191,7 @@ a.reservasi{
     .service-card h3 {
         font-family: 'Times New Roman', Times, serif;
         font-size: 1.5 rem;
-        color: #121212;
+        color: black;
         margin-bottom: 15px;
         font-weight: bold;
         background-color: transparent;
@@ -200,7 +200,7 @@ a.reservasi{
     .service-card p {
         font-family: 'Times New Roman', Times, serif;
         font-size: 14px;
-        color: #000000;
+        color: black;
         line-height: 20px;
         background-color: transparent;
     }
@@ -502,7 +502,6 @@ a.reservasi{
 .service-card p {
     font-size: 14px;
     line-height: 1.6;
-    color: #dddddd;
     margin-bottom: 20px;
     font-family: Arial, sans-serif;
 }
